@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>🍽️ Daftar Kategori Makanan</h1>
+      <h1> Daftar Kategori Makanan</h1>
       <div className="grid">
         {categories.map((category) => (
           <div className="card" key={category.idCategory}>
